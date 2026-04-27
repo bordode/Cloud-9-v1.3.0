@@ -476,7 +476,7 @@ if __name__ == "__main__":
 # ============================================================================
 
 """
-White Paper: Anthropic Selection Across Stellar Populations – A Phase Transition in Habitability
+White Paper: Star Assembly Selection Across Stellar Populations – A Phase Transition in Habitability
 =================================================================================================
 
 Abstract
@@ -548,7 +548,29 @@ hab = base × p_planet × flare_penalty; observer if hab > 0.5 (baseline).
 - Critical flare_denom ≈ 2.5.
 - Below: F/G majority; above: M dwarfs take over, plateau at ≈57% M.
 
+
 4. Astrophysical Interpretation
 -------------------------------
-The “flare_denom” parameter encapsulates UV flare frequency, atmospheric protection, and magnetic
-acti
+The "flare_denom" parameter encapsulates UV flare frequency, atmospheric protection, and magnetic
+activity decay. The transition at fd≈2.5 separates two regimes:
+- fd < 2: F/G stars dominate – "rare Earth" scenario.
+- fd > 3: M dwarfs dominate – "M‑dwarf biosphere" scenario.
+If a cognitive/technological filter exists (phi threshold), F/G regain dominance even at moderate fd.
+
+5. Conclusions
+--------------
+1. Seed and range fixes removed artificial biases.
+2. Sharpened M‑dwarf flare penalty creates a clean phase transition.
+3. Observer demographics are bistable: F/G dominate below threshold, M above.
+4. Consciousness filters can revert dominance to F/G, offering a resolution to the Fermi paradox.
+5. The simulation matches both the "G‑dwarf problem" and "M‑dwarf optimism" depending on assumed
+   stellar activity.
+
+6. Recommendations
+------------------
+- SETI: Prioritise F/G and K stars, but do not exclude old, inactive M dwarfs.
+- Exoplanet atmosphere studies: Measure flare rates of M dwarfs precisely.
+- Future modelling: Introduce continuous distributions of atmospheric depth and magnetic braking.
+
+White paper prepared on 2026‑04‑26. Simulation version v1.4.2.
+"""
